@@ -1,0 +1,10 @@
+Test handle_client_connection ...
+Got a connection from ('127.0.0.1', 12345)
+send called with: call(b'Hello, Client!')
+close called with: call()
+Test start_server ...
+Listening on 127.0.0.1:12345 ...
+Got a connection from ('127.0.0.1', 12345)
+accept called with: call()
+bind called with: call(('127.0.0.1', 12345))
+listen called with: call(1)

@@ -1,0 +1,3 @@
+connect called with: call(('127.0.0.1', 12345))
+send called with: call(b'Hello, Server!')
+close called with: call()

@@ -1,0 +1,15 @@
+Testing file download not exist ...
+Connected to server on port 12345
+Received from server:
+File not found.
+Connection closed.
+connect called with: call(('127.0.0.1', 12345))
+sendall called with: call(b'non_existent_file.txt')
+recv called with: call(1024)
+Testing file download success ...
+Connected to server on port 12345
+Received from server:
+Hello, this is the content of example.txt
+Connection closed.
+connect called with: call(('127.0.0.1', 12345))
+sendall called with: call(b'example.txt')

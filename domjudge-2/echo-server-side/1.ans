@@ -1,0 +1,16 @@
+Test handle_client_connection ...
+Got a connection from ('127.0.0.1', 12345)
+Received from client: Welcome into this client-server-client sending message program!
+Sending back to client: Welcome into this client-server-client sending message program!
+recv called with: call(1024)
+send called with: call(b'Welcome into this client-server-client sending message program!')
+close called with: call()
+Test start_server ...
+Listening on 127.0.0.1:12345 ...
+Got a connection from ('127.0.0.1', 12345)
+Received from client: Welcome into this client-server-client sending message program!
+Sending back to client: Welcome into this client-server-client sending message program!
+Server shutting down.
+accept called with: call()
+bind called with: call(('127.0.0.1', 12345))
+listen called with: call(1)

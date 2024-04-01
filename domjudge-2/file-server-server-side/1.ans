@@ -1,0 +1,10 @@
+Testing file download existing ...
+Connected by ('127.0.0.1', 12345)
+recv called with: call(1024)
+sendall called with: call(b'Hello, this is the content of example.txt')
+close called with: call()
+Testing file download not exist ...
+Connected by ('127.0.0.1', 12345)
+recv called with: call(1024)
+sendall called with: call(b'File not found.')
+close called with: call()
